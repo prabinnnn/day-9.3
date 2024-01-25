@@ -3,6 +3,7 @@ const user = {
   price: 900,
   welcomemessage: function () {
     console.log(`${user.username}, welcome here`);
+    console.log(this);
   },
 };
 
