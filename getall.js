@@ -29,7 +29,7 @@ const characters = [
   },
 ];
 const getallName = (characters) => {
-  return characters.map((word) => word.ervey(characters.name));
+  return characters.map((word) => word.name);
 };
 const getname = getallName(characters);
 console.log(getname);
